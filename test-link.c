@@ -9,7 +9,7 @@ int main(int argc, char **argv) {
 
     output = lookup(input);
 
-    printf("Input %2d -> Output %2d\n", input, output);
+    printf("Input %2d -> Output %3d\n", input, output);
 
     return 0;
 }

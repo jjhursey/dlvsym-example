@@ -1,6 +1,16 @@
+# Define three different versions of the library
+# Node names must match the string in the .symver
+
+# The "local:" directive is used to prevent the symbol ‘lookup_vX’ from being exported
+
 v1 {
-   local: lookup_v1;
+   local:
+        lookup_v1;
+        display;
 };
 v2 {
    local: lookup_v2;
-};
+} v1;
+v3 {
+   local: lookup_v3;
+} v2;

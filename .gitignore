@@ -44,4 +44,7 @@
 
 #
 # Programs
-test1
+test-link
+test-link-wo
+test-dlsym
+test-dlvsym
