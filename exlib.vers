@@ -1,0 +1,6 @@
+v1 {
+   local: lookup_v1;
+};
+v2 {
+   local: lookup_v2;
+};
